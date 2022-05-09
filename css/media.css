@@ -1,0 +1,321 @@
+@media (max-width: 1006px) {
+  .composition-photo:hover {
+    outline: 0.9rem solid #55c57a;
+    outline-offset: 1.1rem;
+  }
+
+  .composition-photo {
+    width: 45%;
+  }
+
+  .composition-photo-1 {
+    left: 6rem;
+  }
+
+  .composition-photo-2 {
+    right: 6rem;
+  }
+  .composition-photo-3 {
+    left: 25%;
+  }
+
+  .section-features {
+    margin-top: 30rem;
+  }
+  .section-features {
+    margin-top: 32rem;
+  }
+
+  .grid-container .feature-box {
+    min-width: 25rem;
+  }
+  .section-about {
+    padding-bottom: 0;
+  }
+
+  .section-features {
+    margin-top: 0;
+  }
+}
+
+@media (max-with: 830px) {
+  .section-features {
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 899px) {
+  .section-about {
+    padding-bottom: 55rem;
+  }
+
+  .section-features {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 830px) {
+  body {
+    padding: 0;
+  }
+
+  .logo-box {
+    top: 30px;
+    left: 30px;
+  }
+
+  .logo {
+    height: 28px;
+  }
+
+  .navigation-button {
+    height: 5.5rem;
+    width: 5.5rem;
+    top: 30px;
+    right: 30px;
+  }
+
+  .navigation-background {
+    height: 5.5rem;
+    width: 5.5rem;
+    top: 30px;
+    right: 30px;
+  }
+  .navigation-icon {
+    margin-top: 2.8rem;
+  }
+
+  .heading-primary-main {
+    font-size: 5rem;
+    letter-spacing: 3rem;
+  }
+  .heading-primary-sub {
+    font-size: 1.5rem;
+    letter-spacing: 1.5rem;
+    transform: translateX(-1rem);
+  }
+
+  .btn {
+    font-size: 1.3rem;
+  }
+
+  /* .section-features {
+    margin-top: 28rem;
+  } */
+
+  .book {
+    background-image: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0.9) 0%,
+        rgba(255, 255, 255, 0.9) 100%
+      ),
+      url(../img/nat-10.jpg);
+  }
+
+  .book-form {
+    width: 100%;
+  }
+
+  .footer-list {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-item {
+    padding: 1rem;
+    margin-left: 0;
+    padding-left: 0;
+    margin: 1rem;
+  }
+}
+@media (max-width: 772px) {
+  .popup-left {
+    display: none;
+  }
+
+  .popup-text {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    column-count: unset;
+
+    /* column-rule: 1px solid #eee; */
+  }
+
+  .popup-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .popup-heading-medium {
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .popup .btn,
+  .popup .btn-green {
+    padding: 10px 25px !important;
+  }
+
+  .card {
+    margin-bottom: 18rem;
+  }
+
+  .tours-btn {
+    margin-top: 7rem;
+  }
+
+  .section-tours {
+    padding-bottom: 8rem !important;
+  }
+
+  .card:hover .card-front {
+    transform: rotateY(0deg);
+  }
+
+  .card-back {
+    transform: rotateY(0deg);
+    position: absolute;
+    top: 180px;
+    left: 0;
+    z-index: -1;
+  }
+
+  .card-cta > * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-price {
+    transform: translateY(1.6rem);
+  }
+
+  .card-cta {
+    transform: translateX(-50%) translateY(6.5rem);
+  }
+
+  .card-front {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  }
+}
+
+@media (max-width: 546px) {
+  .story {
+    transform: skew(0);
+    padding: 3rem;
+  }
+
+  .story > * {
+    transform: skewX(0);
+  }
+
+  .story-shape {
+    float: none;
+  }
+
+  .story-text h3 {
+    margin-top: 3rem;
+  }
+
+  .footer-item {
+    padding: 1rem;
+    margin: 1rem;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .heading-primary-main {
+    font-size: 3rem;
+    letter-spacing: 2rem;
+  }
+  .heading-primary-sub {
+    font-size: 1.1rem;
+    letter-spacing: 0.9rem;
+    transform: translateX(-0.5rem);
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 1rem 2rem;
+  }
+
+  .header {
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 90%);
+  }
+
+  .section-about {
+    transform: translateY(-13rem);
+  }
+
+  .heading-secondary {
+    margin-bottom: 4rem;
+  }
+
+  .section-features {
+    margin-top: 5rem;
+    padding: 11rem 0;
+  }
+
+  .section-tours {
+    padding: 20rem 0 5rem 0;
+  }
+
+  .tours-btn {
+    margin-top: 5rem;
+  }
+
+  .section-stories {
+    padding: 7rem 0;
+  }
+
+  .section-book {
+    padding: 0 0;
+  }
+
+  .footer-logo-box {
+    margin-bottom: 4rem;
+  }
+
+  .footer-container {
+    gap: 4rem;
+  }
+
+  .footer {
+    padding: 7rem 10rem;
+  }
+
+  .section-about {
+    padding-bottom: 23rem;
+  }
+}
+
+@media (max-width: 405px) {
+  .grid-container {
+    display: block;
+  }
+
+  .grid-container > .composition,
+  .grid-container > .article {
+    min-width: 100%;
+  }
+  .footer {
+    padding: 5rem 3rem;
+  }
+
+  .section-features {
+    margin-top: 0;
+  }
+
+  .feature-box:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .feature-box {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .tours-btn {
+    margin-top: 25rem;
+  }
+}
